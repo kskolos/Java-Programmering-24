@@ -1,6 +1,6 @@
 public class E3_Exercises {
 
-public class Book {
+    public class Book {
     String title;
     String author;
     private int year;
