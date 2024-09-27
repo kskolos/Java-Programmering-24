@@ -7,7 +7,7 @@ public class E2_Exercises {
 
         System.out.println("My name is " + myName + " and I am " + myAge + " years old.");
 
-        boolean Bool = true
+        boolean Bool = true;
 
     }
 }
