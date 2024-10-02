@@ -7,45 +7,23 @@ public class Die {
     private int value;
     private Random randomNumber;
 
-    //read input and generate a new random value
-
+    // set number of sides and initialize random 
     public Die(int sides) {
-        this.sides = sides;
-        randomNumber = new Random();
+    this.sides = sides;
+ }
 
-    }
-
-    // Getters and setters 
+    // Getters 
     public int getSides() {
         return sides;
-    }
-
-    public void setSides(int sides) {
-        this.sides = sides;
     }
 
     public int getValue() {
         return value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
-
-        // random number generator, between 1 and 6
-   private void generateNumber() {
-    Random randomNumber = new Random();
-    int x = randomNumber.nextInt(6)+1;
-    }
-
     // roll method 
-    public static void roll() {
-        
-        
-    }
-
-    public static void main(String[] args) {
-        System.out.println(roll());
+    public void roll() {
+        value =  randomNumber.nextInt(sides) +1;
     }
 
 }
