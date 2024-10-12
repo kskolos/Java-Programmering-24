@@ -27,7 +27,7 @@ public class DiceGame {
 
         for (int currentRoundNumber = 1; currentRoundNumber <= totalNumberofRounds; currentRoundNumber++ ) {
 
-        System.out.println("Time to make a guess. What number do you choose?");
+        System.out.println("Let's get things rolling! What number do you think you got?");
         int guess = scanner.nextInt();
 
         int actualValue = newPlayer.getDieValue();
@@ -62,7 +62,7 @@ public class DiceGame {
     System.out.println("Great job, and thank you for playing!");
     System.out.println("Your game ended with a final score of: " + newPlayer.getPoints());
   
-    
+
     }
 
         public static String welcomeStatement() {
