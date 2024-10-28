@@ -13,7 +13,6 @@ public class Die {
     this.randomNumber = new Random();
     
  }
-
     // Getters 
     public int getSides() {
         return sides;
